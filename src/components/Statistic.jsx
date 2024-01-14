@@ -28,7 +28,7 @@ const Statistic = ({ selectedCountry }) => {
   }
 
   return (
-    <div className="text-center mt-2">
+    <div className="text-center flex flex-col">
       <div>
         <img
           className="mx-auto shadow-lg rounded-s-sm"
@@ -36,8 +36,10 @@ const Statistic = ({ selectedCountry }) => {
           alt={`Flag of ${statistics.country}`}
           style={{ maxWidth: '100px' }}
         />
+      </div>
 
-        <h1>Country: {statistics.country}</h1>
+      <div>
+        <h1 className="my-2 text-xl font-semibold">{statistics.country}</h1>
         <h1>Cases: {statistics.cases}</h1>
         <h1>Deaths: {statistics.deaths}</h1>
         <h1>Recovered: {statistics.recovered}</h1>

@@ -4,8 +4,9 @@ import Navbar from '../components/Navbar';
 import Lottie from 'lottie-react';
 import animationData from '../assets/animation-covid.json';
 import Card from '../components/Card';
-import CountryCardContent from '../components/CardContent';
+import CardContent from '../components/CardContent';
 import Statistic from '@/components/Statistic';
+import MainCard from '@/components/MainCard';
 
 export default function Home({ countriesData, worldwideData, country }) {
   const [selectedCountry, setSelectedCountry] = useState(country);
@@ -22,13 +23,13 @@ export default function Home({ countriesData, worldwideData, country }) {
       <Navbar />
 
       <div className="flex flex-wrap items-center justify-center bg-gray-100">
-        <Card addClass="bg-white">
-          <CountryCardContent
+        <MainCard addClass="bg-white">
+          <CardContent
             countries={countriesData}
             selectedCountry={selectedCountry}
             setSelectedCountry={setSelectedCountry}
           />
-        </Card>
+        </MainCard>
         <div style={{ width: '45%' }}>
           <Lottie animationData={animationData} height={50} width={50} />
         </div>
