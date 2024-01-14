@@ -6,7 +6,7 @@ const navigation = [
   {
     name: 'Symptoms',
     href: 'https://www.who.int/health-topics/coronavirus#tab=tab_3',
-    current: true,
+    current: false,
   },
   {
     name: 'Preventions',
