@@ -8,7 +8,7 @@ import CardContent from '@/components/CardContent';
 import Statistic from '@/components/Statistic';
 import MainCard from '@/components/MainCard';
 
-export default function Home({ countriesData, worldwideData, country }) {
+export default function Home({ countriesData, country }) {
   const [selectedCountry, setSelectedCountry] = useState(country);
   const additionalSelectedCountries = [458, 360, 702, 608];
 
