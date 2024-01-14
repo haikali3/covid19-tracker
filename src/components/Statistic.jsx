@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { fetchCountryData } from '@/services/api/covid-data';
 
 const Statistic = ({ selectedCountry }) => {
   const [statistics, setStatistics] = useState(null);
@@ -6,10 +7,7 @@ const Statistic = ({ selectedCountry }) => {
   useEffect(() => {
     const getStatistic = async () => {
       try {
-        const res = await fetch(
-          `https://disease.sh/v3/covid-19/countries/${selectedCountry}`
-        );
-        const data = await res.json();
+        const data = await fetchCountryData(selectedCountry);
         setStatistics(data);
         console.log(`API Response for ${selectedCountry}:`, data);
       } catch (error) {
