@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { fetchWorldwideData } from '@/services/api/covid-data';
 
 const WorldwideData = ({ setSelectedCountry }) => {
   const [worldwideData, setWorldwideData] = useState(null);
 
   useEffect(() => {
-    const fetchWorldwideData = async () => {
+    const fetchWorldwide = async () => {
       try {
-        const response = await fetch('https://disease.sh/v3/covid-19/all');
-        const data = await response.json();
+        const data = await fetchWorldwideData();
         setWorldwideData(data);
         setSelectedCountry(data);
       } catch (error) {
@@ -15,7 +15,7 @@ const WorldwideData = ({ setSelectedCountry }) => {
       }
     };
 
-    fetchWorldwideData();
+    fetchWorldwide();
   }, [setSelectedCountry]);
 
   const getPercentage = (value, total) => {

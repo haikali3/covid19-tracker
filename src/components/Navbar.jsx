@@ -29,7 +29,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-how-is-it-transmitted"
+                href="https://covid-19.moh.gov.my/faqsop/faq-covid-19-kkm"
                 className="rounded-md px-4 py-2 text-sm font-semibold text-gray-800"
               >
                 Preventions
@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://github.com/trafargarlaw/covid-tracker-next-tailwind-isr"
+                href="https://covid-19.moh.gov.my/faqsop/faq-covid-19-kkm"
                 className="rounded-md px-4 py-2 text-sm font-semibold text-gray-800"
               >
                 FAQs
@@ -45,7 +45,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://github.com/trafargarlaw/covid-tracker-next-tailwind-isr"
+                href="https://github.com/haikali3"
                 className="rounded-md px-4 py-2 text-sm font-semibold text-gray-800"
               >
                 About
@@ -53,8 +53,8 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://github.com/trafargarlaw/covid-tracker-next-tailwind-isr"
-                className="rounded-md bg-blue-500 px-4 py-2 text-sm font-semibold text-gray-100"
+                href="https://github.com/haikali3"
+                className="rounded-md bg-purple-800 px-4 py-2 text-sm font-semibold text-gray-100"
               >
                 Code on github
               </a>

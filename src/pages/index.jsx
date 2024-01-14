@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import Navbar from '../components/Navbar';
+import Navbar from '@/components/Navbar';
 import Lottie from 'lottie-react';
-import animationData from '../assets/animation-covid.json';
-import Card from '../components/Card';
-import CardContent from '../components/CardContent';
+import animationData from '@/assets/animation-covid.json';
+import Card from '@/components/Card';
+import CardContent from '@/components/CardContent';
 import Statistic from '@/components/Statistic';
 import MainCard from '@/components/MainCard';
 
