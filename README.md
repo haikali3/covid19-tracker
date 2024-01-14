@@ -1,6 +1,8 @@
 # Covid-19 Tracker
 
 Visit the live application: [Covid-19 Tracker](https://covid19-tracker-opal.vercel.app/)
+![Alt text](covid19-tracker\src\asset\'screenshot web.png')
+
 
 ## Table of Contents
 
