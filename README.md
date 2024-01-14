@@ -67,7 +67,7 @@ Client Side Rendering (CSR) and Server Side Rendering (SSR) are two approaches i
 
 
 **2.Explain and justify the technology stack, libraries, router framework, ui component framework you choose.**
-a.Non-exhaustive, pick any notable item and explain
+**a.Non-exhaustive, pick any notable item and explain**
 
 Tailwind CSS was selected for its utility-first approach, promoting rapid development and easy customization. Its simplicity and flexibility allow developers to create a cohesive and responsive UI with minimal effort.
 
