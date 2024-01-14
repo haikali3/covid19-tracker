@@ -1,7 +1,7 @@
 # Covid-19 Tracker
 
 Visit the live application: [Covid-19 Tracker](https://covid19-tracker-opal.vercel.app/)
-![Covid-19](https://github.com/haikali3/covid19-tracker/blob/master/src/assets/screenshot%20web.png)
+![Covid-19](https://github.com/haikali3/covid19-tracker/blob/master/src/assets/screenshot%20web%202.png)
 
 
 ## Table of Contents
