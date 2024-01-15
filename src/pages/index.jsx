@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
-import Lottie from 'lottie-react';
-import animationData from '@/assets/animation-covid.json';
 import Card from '@/components/Card';
 import CardContent from '@/components/CardContent';
 import Statistic from '@/components/Statistic';
 import MainCard from '@/components/MainCard';
+// import Graph from '@/components/Graph';
+
+//Animation
+import Lottie from 'lottie-react';
+import animationData from '@/assets/animation-covid.json';
 
 export default function Home({ countriesData, country }) {
   const [selectedCountry, setSelectedCountry] = useState(country);
@@ -47,6 +50,17 @@ export default function Home({ countriesData, country }) {
           ))}
         </div>
       </div>
+      {/* { did not manage to get the graph to work in time } */}
+      {/* <div className=" mt-10 mb-6 lg:mx-16">
+        <h1 className="ml-8 font-Roboto text-2xl font-bold text-slate-700">
+          Graph
+        </h1>
+        <div className="mt-6 items-center flex flex-wrap">
+          <Card>
+            <Graph />
+          </Card>
+        </div>
+      </div> */}
     </>
   );
 }
